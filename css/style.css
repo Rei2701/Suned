@@ -1,0 +1,59 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    background-color: rgb(255, 255, 255, 1)!important;
+    border-radius:0 0 10px 10px;
+    border: 2px white solid;
+    opacity: 100;
+}
+.logo-container{
+    width: 15%;
+    height: 100%;
+}
+.logo-container img{
+    width: 100%;
+    height: 100%;
+}
+#nav-menu{
+    display: flex;
+    position: absolute;
+    margin-left:75% ;
+}
+#nav-menu h4{
+    margin: 10px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+#nav-menu h4 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+/* Cacrousel */
+.carousel-inner{
+    position: relative;
+}
+.carousel-inner_content{
+    position:absolute;
+    top: calc(30%);
+    left: calc(20%);
+    z-index: 50;
+    color: white;
+    /* background-color: black; */
+    border-radius: 20px;
+    text-align: center;
+}
+.carousel-inner_content h3{
+    background-color: black;
+    font-size: 7rem;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
